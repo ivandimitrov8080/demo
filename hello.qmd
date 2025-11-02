@@ -26,7 +26,3 @@ ax.grid(True);
 plt.show()
 ```
 
-```{python}
-#| label: rand
-
-```
