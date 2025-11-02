@@ -4,9 +4,9 @@ import email
 maildir = mailbox.Maildir("/home/ivand/mail/ivan/INBOX")
 
 for message_key, message in maildir.items():
-    subject = message['subject']
-    sender = message['from']
-    date = message['date']
+    subject = message["subject"]
+    sender = message["from"]
+    date = message["date"]
     for header, value in message.items():
         print(f"{header}: {value}")
     break
